@@ -1,0 +1,19 @@
+PODS:
+  - AMap2DMap (4.0.0):
+    - AMapFoundation (= 1.0.0)
+  - AMapFoundation (1.0.0)
+  - AMapSearch (4.0.0):
+    - AMapFoundation (= 1.0.0)
+
+DEPENDENCIES:
+  - AMap2DMap (~> 4.0.0)
+  - AMapSearch (~> 4.0.0)
+
+SPEC CHECKSUMS:
+  AMap2DMap: 72868a24c1a7c70f86729a4dfb4e4c2dc301f727
+  AMapFoundation: af861f5d299a4f17a1a8b50fd91242933bb352f3
+  AMapSearch: 867e89123c927436713372803156ac9848d9868a
+
+PODFILE CHECKSUM: a75aaed44a9495bac1028dadeed62b5b9b6a2016
+
+COCOAPODS: 1.0.1

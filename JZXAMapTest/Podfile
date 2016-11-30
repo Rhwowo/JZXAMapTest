@@ -1,0 +1,10 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'JZXAMapTest' do
+  pod 'AMap2DMap', '~> 4.0.0'
+  pod 'AMapSearch', '~> 4.0.0'
+  # pod 'MJRefresh_Bell', '~> 3.1.0.2'
+end

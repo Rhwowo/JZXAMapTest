@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import <MAMapKit/MAMapKit.h>
 @interface ViewController ()
 
 @end
@@ -17,7 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
+    MAMapView *mapView = [[MAMapView alloc]initWithFrame:self.view.bounds];
+    
+    [self.view addSubview:mapView];
 }
 
 - (void)didReceiveMemoryWarning {
