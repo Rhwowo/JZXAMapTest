@@ -21,7 +21,7 @@
 
     NSLog(@"developing");
 
-    NSLog(@"start developer");
+    
 
     [self setUpMapView];
 }
