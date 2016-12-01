@@ -20,7 +20,8 @@
     // Do any additional setup after loading the view.
 
     NSLog(@"developing");
-
+    NSLog(@"testserver");
+    
     [self setUpMapView];
 }
 
