@@ -18,7 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
     NSLog(@"developing");
+
+    NSLog(@"start developer");
+
     [self setUpMapView];
 }
 
